@@ -18,7 +18,7 @@
 ## 🚀 Fase 1: Preparação do Laboratório (Virtualização)
 O objetivo inicial foi a implantação de duas Máquinas Virtuais (VMs) para simular o ambiente corporativo.
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > **Desafios de Instalação:** Durante a implantação do Windows 11, foi encontrada uma barreira técnica devido às exigências modernas de segurança (TPM 2.0 e Secure Boot) impostas pelo sistema operacional.
 
 **Solução Aplicada:** O problema foi mitigado através da reconfiguração da VM no Hypervisor, habilitando o suporte a **UEFI** e ativando o recurso **PAE/NX** nas configurações de processamento. Após esses ajustes, o sistema foi instalado com sucesso.
